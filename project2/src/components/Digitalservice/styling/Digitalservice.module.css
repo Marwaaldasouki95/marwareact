@@ -1,0 +1,18 @@
+
+
+#digitalService {
+    display:flex;
+    
+    flex-wrap: wrap;
+}
+
+.servFotoList {
+ max-width: 100%;
+ 
+    
+
+}
+
+.fotoItem{
+    width: 50%;
+}

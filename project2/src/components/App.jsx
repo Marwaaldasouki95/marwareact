@@ -6,6 +6,8 @@ import Footer from './Footer'
 import Partnerlogo from './Partnerlogo/Partnerlogo'
 import Digitalservice from './Digitalservice/Digitalservice'
 import RenderList from './RenderList'
+import ClientServices from './ClientService/ClientService.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,9 +18,8 @@ function App() {
       <main>
         
         <h1> APP </h1>
-       <Partnerlogo/>
-        <Digitalservice />
-        <RenderList/>
+       
+        <ClientServices/>
 
       </main>
       <Footer />

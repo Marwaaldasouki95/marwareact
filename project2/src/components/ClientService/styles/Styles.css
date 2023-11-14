@@ -1,0 +1,74 @@
+.clientService{
+
+display: flex;
+ /*   flex-direction: row;  */
+
+
+}
+.case{
+ width:50%;
+  align-content:flex-start flex-end center ;
+  row-gap: 20px;
+  margin : 50px 60px;
+  align-items: first baseline;
+  justify-content: space-around;
+  
+
+}
+
+.bild{
+  filter: blur(9px);
+    -webkit-filter: blur(9px);
+    -moz-filter: blur(9px);
+}
+.bild:hover{
+    filter:blur(0)
+}
+
+
+.titleSection {
+
+  display: flex;
+  height: 50px;
+
+}
+.cardTitle{
+    width: 80%;
+
+    
+
+}
+.caseButton
+{
+ 
+    width: 20%;
+  
+ 
+
+}
+.caseButton::after{
+    content:'';
+    position: absolute;
+    padding: 0;
+    margin-left: -10px;
+    height: 50px;
+    width: 50px;
+    background-image: url('/right-arrow.png') ;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: 100% auto;
+}
+
+
+
+
+
+
+/** 
+
+box hat 10px width und 10px height
+border 1px ==> 11px box
+
+outline 1px ==> 10px box 
+
+*/

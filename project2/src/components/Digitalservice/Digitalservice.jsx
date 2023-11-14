@@ -7,7 +7,7 @@ import styles from './styling/Digitalservice.module.css'
 
 export default function Digitalservice() {
 
-console.log(digitalserv)
+    /** die bildOne bis bildTwo in ein Object umwandeln */
     const bildOne = {
         backgroundImage: `url(${digitalserv})`,
         backgroundSize: "cover",
@@ -29,6 +29,8 @@ console.log(digitalserv)
         backgroundRepeat: "no-repeat"
     }
 
+
+    /** return nach dem gleichen Konzept wie bei ClientService umbauen - mit .map function */
     return (
 
         <section id={styles.digitalService} >

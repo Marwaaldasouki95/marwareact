@@ -1,10 +1,18 @@
+import HomePage from "../pages/HomePage"
+import { Link } from "react-router-dom"
+
 function Header(){
 return (
 
     <header>
-     <h1>
-      das ist der Header
-     </h1>
+    <ul>
+        <li>
+            <Link to="/">Home</Link>
+        </li>
+        <li>
+            <Link to="/aboutme" >AboutMe </Link>
+        </li>
+    </ul>
     </header>
 
 )
